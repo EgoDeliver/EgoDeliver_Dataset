@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="renderer" content="webkit" />
+  <title>Ego-Deliver</title>
+  <link rel="icon" href="/favicon.ico" type="img2/icon.png" />
+  <script>(function (win, doc) { var docEl = doc.documentElement, UA = navigator.userAgent; var refreshRem = function () { var w = docEl.getBoundingClientRect().width || 320; var fontSize = 100 * (docEl.clientWidth / 750);</script>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+
+
+<body id="app-home-page">
+  <nav class="navbar">
+    <a class="navbar-left" href="/"><img src="img2/logo_weight.png" /></a>
+    <div class="navbar-right">
+      <img src="img2/logo_blue.png" />
+      <img src="img2/logo_black.png" />
+    </div>
+  </nav>
+  <section class="banner">
+    <div class="col-me-6">
+      <img class="img-responsive" style="height: 100%; width: 100%; object-fit: contain" src="img2/banner.png" />
+    </div>
+    <!--
+   <div id="bannerImg" class="bannerImg">
+    <ul id="hexGrid"></ul>
+   </div>
+   <div class="bannerDiv" id="bannerDiv"></div>
+  -->
+  </section>
+
+  <div class="arrow-div">
+    <div class="arrow-down dark"></div>
+  </div>
+
+  <div class="content">
+
+
+
+    <section class="item">
+      <div class="title">
+        <span><img src="favicon.ico"></img>Ego-Deliver</span>
+        <div class="grey-line">
+          <div class="pink-line"></div>
+        </div>
+      </div>
+      <div class="section-content">
+
+        <div class="contain">
+          <div style="width:300px; float:left;background-color:#ffffff">
+            <video width="320" height="240" muted="true" id="player" controls="" loop="loop" autoplay="autoplay">
+              <source src="img2/105_144p.mp4" type="video/mp4">
+              </source>
+            </video>
+          </div>
+          <div style="width:300px; float:left;background-color:#ffffff">
+            <video width="320" height="240" muted="true" id="player" controls="" loop="loop" autoplay="autoplay">
+              <source src="img2/106_144p.mp4" type="video/mp4">
+              </source>
+            </video>
+          </div>
+          <div style="width:300px; float:left;background-color:#ffffff">
+            <video width="320" height="240" muted="true" id="player" controls="" loop="loop" autoplay="autoplay">
+              <source src="img2/116_144p.mp4" type="video/mp4">
+              </source>
+            </video>
+          </div>
+          <br style="clear: left;" />
+        </div>
+
+        <div class="desc">
+          Ego-Deliver, a new large-scale egocentric video
+          benchmark recorded by takeaway riders about their daily work. To
+          the best of our knowledge, Ego-Deliver presents the first attempt in
+          understanding activities from the takeaway delivery process while
+          being one of the largest egocentric video action dataset to date.
+          We believe is pivotal to future research in this area.
+        </div>
+        <div class="col-me-6" align="center">
+          <img class="img-responsive" style="height: 75%; width: 75%; object-fit: contain margin:auto"
+            src="img2/demo_images.png" />
+        </div>
+
+
+      </div>
+    </section>
+    <section class="item" id="statistics">
+      <div class="title">
+        <span>Statistics</span>
+        <div class="grey-line">
+          <div class="pink-line"></div>
+        </div>
+      </div>
+      <div class="section-content">
+        <div class="desc">
+          We have collected 5, 360 videos with a total duration of 425 hours. We used cameras
+          to record continuous video data with fixed resolution 720P (1280 × 720) at 25 FPS.
+          Ego-Deliver provides a total of 5, 360 videos with more than 139, 000 multi-track annotations
+          and 45 different attributes.
+          The average number of annotations for each video is 27.15.
+          28 out of 45 categories have more than 3, 000 instances thus ensuring
+          sufficient training data.
+        </div>
+        <div class="imgRow">
+          <div class="col-me-6" align="center">
+            <img class="img-responsive" style="height: 55%; width: 55%; object-fit: contain margin: auto"
+              src="img2/classes.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="item" id="annotation">
+      <div class="title">
+        <span>Annotations</span>
+        <div class="grey-line">
+          <div class="pink-line"></div>
+        </div>
+      </div>
+      <div class="section-content">
+
+        We choose <a href="https://www.anvil-software.org/">ANVIL</a> as the annotation tool.
+        To fully describe the delivery process, we annotate collected videos from different perspectives.
+        The annotations were divided into 5 different tracks.
+        On each track, both starting and ending points of each action were labeled.
+
+        <div class="col-me-6" align="center">
+          <img class="img-responsive" style="height: 75%; width: 75%; object-fit: contain margin:auto"
+            src="img2/anvils.png" />
+        </div>
+
+        We will provide the original .anvil file and the sqlite db file of Ego-Deliver.
+
+      </div>
+    </section>
+
+
+    <section class="item" id="download">
+
+      <div class="title">
+        <span>Download</span>
+        <div class="grey-line">
+          <div class="pink-line"></div>
+        </div>
+      </div>
+
+      <div class="section-content">
+        The dataset will be released after the paper is accepted. <P>
+          The demo of Ego-Deliver can be donwload from <a href="img2/Demo_EgoDeliver.rar">HERE</a>.
+      </div>
+
+    </section>
+
+
+    <!--
+   <section class="item" id="people">
+
+    <div class="title">
+     <span>Author</span>
+     <div class="grey-line">
+      <div class="pink-line"></div>
+     </div>
+    </div>
+
+  </section>
+
+   <section class="item" id="paper">
+    <div class="title">
+     <span>Paper</span>
+     <div class="grey-line">
+      <div class="pink-line"></div>
+     </div>
+    </div>
+    <div class="section-content">
+    </div>
+  </section>
+  -->
+
+  </div>
+  <div class="arrow-div">
+    <div class="arrow-down white"></div>
+  </div>
+  <footer>
+    <div>
+      <img src="img2/logo_weight.png" />
+      <p>Copyright &copy;2021 All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="bundle.js?389ebdb3e290c4e4b300"></script>
+</body>
+
+</html>
